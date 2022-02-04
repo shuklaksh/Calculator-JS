@@ -67,7 +67,8 @@ function handleSymbol(symbol) {
                 buffer = "0";
             } else {
                 buffer = buffer.substring(0,(buffer.length) - 1);
-            }     
+            }
+            break;     
         case "+":
         case "-":
         case "×":
